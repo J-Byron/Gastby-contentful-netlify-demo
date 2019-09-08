@@ -2,7 +2,7 @@ const dotenv = require('dotenv')
 
 
 // If not working in production, use dotenv
-if(process.env.NODE_ENV != 'production') dotenv.config();
+dotenv.config();
 
 
 module.exports = {
